@@ -2,7 +2,7 @@ const scanner = require('sonarqube-scanner');
 
 scanner(
   {
-    serverUrl : 'http://localhost:9000/',
+    serverUrl : 'http://10.0.8.139:9000/',
     token : "sqa_3139406c17f53f917a8dad3121b6ed03b95f2201",
     options: {
       'sonar.projectName': 'assi6',
